@@ -3,7 +3,9 @@
     "allow": [
       "Bash(.venv/Scripts/python.exe -m pip uninstall:*)",
       "Bash(.venv/Scripts/python.exe:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(python:*)",
+      "Bash(git add:*)"
     ]
   }
 }
